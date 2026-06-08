@@ -1,0 +1,136 @@
+{
+  "about": {
+    "name": "Andrey Nonardo",
+    "role": "AI Engineer · Prompt Engineer",
+    "bio": "Construo sistemas que pensam. De plataformas SaaS a ferramentas financeiras — entrego produto, não só código.",
+    "location": "Brazil · Remote",
+    "stack": [
+      {
+        "label": "Python",
+        "color": "#3776ab"
+      },
+      {
+        "label": "TypeScript",
+        "color": "#3178c6"
+      },
+      {
+        "label": "PyTorch",
+        "color": "#ee4c2c"
+      },
+      {
+        "label": "LangChain",
+        "color": "#3af0c8"
+      },
+      {
+        "label": "Next.js",
+        "color": "#dce6f5"
+      },
+      {
+        "label": "FastAPI",
+        "color": "#059669"
+      },
+      {
+        "label": "Docker",
+        "color": "#2496ed"
+      }
+    ],
+    "stats": {
+      "years": "3+",
+      "projects": "2+",
+      "coffee": "∞"
+    },
+    "available": true
+  },
+  "projects": [
+    {
+      "id": "nexus-rpg",
+      "name": "Nexus RPG",
+      "desc": "Plataforma SaaS para jogadores e mestres de RPG que centraliza múltiplos sistemas em um só lugar. Suporta Ordem Paranormal, D&D e outros sistemas, com fichas digitais interativas, criador de personagens baseado nos livros oficiais, narração assistida por IA, mapas colaborativos e ambientação sonora por cena.",
+      "tags": [
+        "React",
+        "Firebase",
+        "SaaS",
+        "IA"
+      ],
+      "grad": "linear-gradient(135deg,rgba(180,130,0,.14),rgba(80,40,0,.10))",
+      "image": "/projects/nexus-rpg.png",
+      "url": "https://nexus-rpg-app.web.app/"
+    },
+    {
+      "id": "copa2026",
+      "name": "Copa Alternativa 2026",
+      "desc": "Sistema web completo de bolão da Copa 2026, desenvolvido do zero com React 18 e Supabase. Palpites de placar, apostas em eventos (gol, cartão, pênalti), ranking em tempo real, chat integrado e painel administrativo completo.",
+      "tags": [
+        "React 18",
+        "Supabase",
+        "Full Stack"
+      ],
+      "grad": "linear-gradient(135deg,rgba(0,120,255,.12),rgba(255,180,0,.08))",
+      "image": "/projects/copa.png",
+      "url": "https://copa2026alternativa.netlify.app/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "pct": 94
+    },
+    {
+      "name": "Deep Learning",
+      "pct": 88
+    },
+    {
+      "name": "NLP / LLMs",
+      "pct": 91
+    },
+    {
+      "name": "Computer Vision",
+      "pct": 85
+    },
+    {
+      "name": "Python",
+      "pct": 97
+    },
+    {
+      "name": "PyTorch / TF",
+      "pct": 89
+    },
+    {
+      "name": "MLOps",
+      "pct": 82
+    },
+    {
+      "name": "Cloud / Docker",
+      "pct": 80
+    }
+  ],
+  "cv": {
+    "experience": [
+      {
+        "role": "Junior AI Engineer",
+        "company": "ALTERNATIVA SERVIÇOS",
+        "period": "2026 — Present",
+        "desc": "Construo aplicações que usam inteligência artificial para resolver problemas reais. Desenvolvo desde automações financeiras com lógica de matching inteligente até plataformas SaaS com narração por IA, sistemas de palpites em tempo real e ferramentas que substituem processos manuais por fluxos automatizados. Trabalho com o ciclo completo: concepção, desenvolvimento, deploy e iteração."
+      }
+    ],
+    "education": [
+      {
+        "role": "Redes de Computadores",
+        "company": "UniFG",
+        "period": "2021 — 2025",
+        "desc": ""
+      },
+      {
+        "role": "Engenharia de Software",
+        "company": "Estácio",
+        "period": "2025",
+        "desc": ""
+      }
+    ],
+    "cvUrl": "/curriculo-andrey.pdf"
+  },
+  "contact": {
+    "title": "Tem um projeto\nem mente?",
+    "email": "andreyfulldev@outlook.com"
+  }
+}

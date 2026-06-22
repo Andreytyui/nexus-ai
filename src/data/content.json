@@ -36,7 +36,7 @@
     ],
     "stats": {
       "years": "3+",
-      "projects": "2+",
+      "projects": "3+",
       "coffee": "∞"
     },
     "available": true
@@ -68,6 +68,19 @@
       "grad": "linear-gradient(135deg,rgba(0,120,255,.12),rgba(255,180,0,.08))",
       "image": "/projects/copa.png",
       "url": "https://copa2026alternativa.netlify.app/"
+    },
+    {
+      "id": "flowrance",
+      "name": "Flowrance",
+      "desc": "Gestor financeiro completo para controle pessoal e empresarial. Centraliza receitas, despesas e movimentações em uma experiência clara, permitindo acompanhar a saúde financeira e organizar decisões do dia a dia em um único aplicativo.",
+      "tags": [
+        "Gestão Financeira",
+        "Full Stack",
+        "SaaS"
+      ],
+      "grad": "linear-gradient(135deg,rgba(214,171,61,.14),rgba(31,25,12,.12))",
+      "image": "/projects/flowrance.png",
+      "url": "https://flowrancefinancas.vercel.app/"
     }
   ],
   "skills": [
@@ -131,6 +144,20 @@
   },
   "contact": {
     "title": "Tem um projeto\nem mente?",
-    "email": "andreyfulldev@outlook.com"
+    "email": "andreyfulldev@outlook.com",
+    "socials": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/oandreyziin/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andrey-nonardo-229b77220/"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@Andreyexplica"
+      }
+    ]
   }
 }

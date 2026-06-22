@@ -1,0 +1,13 @@
+.track{--sequence-progress:0;--sequence-opacity:0;--sequence-shift:34px;position:relative;grid-column:2;grid-row:1 / span 2;height:150vh;min-height:980px;align-self:start}
+.sticky{position:sticky;top:14vh;height:72vh;min-height:520px;display:flex;align-items:center}
+.frame{position:relative;width:100%;height:100%;overflow:hidden;border:1px solid var(--line);background:#080b0f;box-shadow:0 35px 100px rgba(0,0,0,.42);opacity:var(--sequence-opacity);transform:translateY(var(--sequence-shift));transition:opacity .18s linear,transform .18s linear}
+.frame::before{content:'';position:absolute;inset:0;z-index:3;pointer-events:none;border:1px solid rgba(255,255,255,.025);box-shadow:inset 0 0 80px rgba(5,6,8,.45)}
+.frame video{width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;filter:saturate(.78) contrast(1.06) brightness(.82);transition:opacity .35s ease}
+.frame video.loaded{opacity:1}
+.overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,6,8,.16),transparent 45%,rgba(5,6,8,.62)),linear-gradient(90deg,rgba(5,6,8,.24),transparent 38%);pointer-events:none}
+.label{position:absolute;z-index:4;left:18px;right:18px;bottom:16px;display:flex;align-items:center;gap:10px;font:400 8px var(--font-mono);letter-spacing:.1em;color:rgba(255,255,255,.55)}.label span{color:var(--cyan)}.label i{height:1px;flex:1;background:linear-gradient(90deg,var(--cyan),transparent)}
+.loading{position:absolute;inset:0;z-index:2;display:grid;place-items:center;background:url('/videos/andrey-chibi-fall-poster.jpg') center/cover}.loading span{width:28px;height:28px;border:1px solid rgba(255,255,255,.18);border-top-color:var(--cyan);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:900px){.track{grid-column:1;grid-row:auto;height:135vh;min-height:850px}.sticky{top:12vh;height:66vh;min-height:460px}}
+@media(max-width:640px){.track{width:calc(100% + 40px);margin-left:-20px;height:108svh;min-height:680px}.sticky{top:88px;height:56svh;min-height:360px}.frame{border-left:0;border-right:0}.label{left:14px;right:14px;bottom:12px;font-size:7px}}
+@media(prefers-reduced-motion:reduce){.track{height:auto;min-height:0}.sticky{position:relative;top:auto;height:52vh;min-height:360px}.frame{opacity:1;transform:none}}

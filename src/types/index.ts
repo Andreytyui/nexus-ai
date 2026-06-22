@@ -25,5 +25,9 @@ export interface SiteContent {
   contact: {
     title: string;
     email: string;
+    socials: {
+      label: string;
+      url: string;
+    }[];
   };
 }

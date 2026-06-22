@@ -1,36 +1,10 @@
-.dot {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--neon);
-  pointer-events: none;
-  z-index: 9999;
-  mix-blend-mode: screen;
-}
-
-.ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 1px solid rgba(58, 240, 200, 0.4);
-  pointer-events: none;
-  z-index: 9998;
-}
-
-.ripple {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: rgba(58, 240, 200, 0.15);
-  pointer-events: none;
-  z-index: 9990;
-}
+.dot,.ring{position:fixed;top:0;left:0;z-index:2000;pointer-events:none;will-change:transform;display:none}
+.dot{width:5px;height:5px;margin:-2.5px 0 0 -2.5px;border-radius:50%;background:#fff}
+.ring{width:34px;height:34px;margin:-17px 0 0 -17px;border:1px solid rgba(100,216,255,.55);border-radius:50%;display:none;align-items:center;justify-content:center;transition:width .2s,height .2s,margin .2s,background .2s,border-color .2s}
+.ring span{font:700 7px var(--font-mono);letter-spacing:.08em}
+.ring[data-mode="button"],.ring[data-mode="link"]{width:48px;height:48px;margin:-24px 0 0 -24px;background:rgba(61,139,255,.12);border-color:var(--cyan)}
+.ring[data-mode="project"]{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(61,139,255,.16)}
+.ring[data-mode="project"] span::before{content:'OPEN'}
+.ring[data-mode="character"]{width:70px;height:70px;margin:-35px 0 0 -35px;border-style:dashed}
+.ring[data-mode="character"] span::before{content:'LOOK'}
+@media (pointer:fine) and (prefers-reduced-motion:no-preference){.dot,.ring{display:flex}}

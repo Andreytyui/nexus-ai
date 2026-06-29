@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { FormEvent, MouseEvent, useEffect, useRef, useState } from 'react';
 import { ArrowDownRight, ArrowUpRight, Check, Download, Menu, Send, X } from 'lucide-react';
 import type { SiteContent } from '@/types';
@@ -219,6 +220,11 @@ export default function PortfolioShell({ content }: { content: SiteContent }) {
                 </a>
               </article>
             ))}
+          </div>
+          <div className={styles.reveal}>
+            <Link href="/projetos" className={styles.allProjectsBtn}>
+              Todos os projetos&nbsp;&nbsp;↗
+            </Link>
           </div>
         </section>
 

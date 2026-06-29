@@ -83,6 +83,7 @@ export default function PanelProjects({ isActive, onClose, projects }: Props) {
             );
           })}
         </div>
+
       </div>
     </div>
   );

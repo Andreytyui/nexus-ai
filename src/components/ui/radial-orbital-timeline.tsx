@@ -176,7 +176,7 @@ export default function RadialOrbitalTimeline({ timelineData }: RadialOrbitalTim
             const isExpanded = expandedItems[item.id];
             const isRelated = isRelatedToActive(item.id);
             const isPulsing = pulseEffect[item.id];
-            const Icon = item.icon;
+            const Icon = item.icon as React.ComponentType<{ size?: number }>;
 
             return (
               <div

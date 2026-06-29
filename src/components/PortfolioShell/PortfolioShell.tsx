@@ -223,7 +223,8 @@ export default function PortfolioShell({ content }: { content: SiteContent }) {
           </div>
           <div className={styles.reveal}>
             <Link href="/projetos" className={styles.allProjectsBtn}>
-              Todos os projetos&nbsp;&nbsp;↗
+              <span className={styles.allProjectsBtnLabel}>Todos os projetos</span>
+              <span className={styles.allProjectsBtnArrow}>↗</span>
             </Link>
           </div>
         </section>

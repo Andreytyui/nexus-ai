@@ -81,6 +81,20 @@
       "grad": "linear-gradient(135deg,rgba(214,171,61,.14),rgba(31,25,12,.12))",
       "image": "/projects/flowrance.png",
       "url": "https://flowrancefinancas.vercel.app/"
+    },
+    {
+      "id": "flow-dev",
+      "name": "Flow Dev — Sistema de Gestão de Demandas",
+      "desc": "Plataforma web para gestão de demandas entre empresas e prestadores de serviço, com board kanban, anexos multimídia (imagem, áudio, vídeo) e notificações em tempo real. Fluxo completo do pedido à entrega, com controle de permissões por empresa e interface responsiva mobile-first.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Full Stack"
+      ],
+      "grad": "linear-gradient(135deg,rgba(0,180,140,.14),rgba(10,40,35,.12))",
+      "image": "/projects/flowdev.png",
+      "url": "https://theflowdev.vercel.app/"
     }
   ],
   "skills": [
